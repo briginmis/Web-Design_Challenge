@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+    <head>
+        <meta charset = "UTF-8">
+        <title>Weather Analysis</title>
+
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <link rel = "stylesheet" href="style.css">
+    </head>
+
+    <body>
+      <nav class="navbar navbar-expand-lg navbar-dark nav-background">
+        <div class= "container-fluid">
+          <a class="navbar-brand" href="index.html">Weather Analysis</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ml-auto mb-2 mb-lg-0">
+              <li class="nav-item dropdown navigationwords">
+                <a class="nav-link dropdown-toggle" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Plots
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown" id = "navbar-list">
+                  <li><a class="dropdown-item" href="temperature.html">Latitude vs Temperature</a></li>
+                  <li><a class="dropdown-item" href="humidity.html">Latitude vs Humidity</a></li>
+                  <li><a class="dropdown-item" href="cloudiness.html">Latitude vs Cloudiness</a></li>
+                  <li><a class="dropdown-item" href="windspeed.html">Latitude vs Windspeed</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="comparisons.html">Comparisons</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="data.html">Data</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+        <div class = "container">
+            <div class = "row pt-3">
+                <div class = "col-md-12">
+                <h1>Comparisons</h1>
+                </div>
+            </div>
+            <div class = row pt-3>
+                <div class = "col-md-6 col-sm-12">
+                <a href = "temperature.html"><img src = "assets/latitude_vs_temperature.png"></a>
+                </div>
+                <div class = "col-md-6 col-sm-12">
+                    <a href="humidity.html"><img src = "assets/latitude_vs_humidity.png"></a>
+                </div>
+                <div class = "col-md-6 col-sm-12">
+                    <a href="cloudiness.html"><img src = "assets/lat_vs_cloudiness.png"></a>
+                </div>
+                <div class = "col-md-6 col-sm-12">
+                <a href="windspeed.html"><img src = "assets/lat_vs_windspeed.png"></a>
+                </div>
+            </div>
+        </div>
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    </body>
+</html>

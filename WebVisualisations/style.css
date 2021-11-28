@@ -1,0 +1,21 @@
+.chart {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.nav-background {
+    background-color:mediumturquoise;
+}
+
+.navigationwords {
+    color: white;
+}
+
+@media (max-width: 900px) {
+
+    .nav-background {
+        background-color: teal;
+    }
+
+  }
